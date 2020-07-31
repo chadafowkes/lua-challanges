@@ -9,4 +9,3 @@ Another simple function that checks if a number n is divisible by two numbers x 
 
 # 100 Doors Challange
 The longest out of all these, check out the challange for yourself here: https://rosettacode.org/wiki/100_doors.
-
