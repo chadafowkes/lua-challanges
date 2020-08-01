@@ -1,6 +1,9 @@
 # lua-challanges
 Some LUA challanges that I did that took longer than it should have.
 
+# Total Volume Function
+A function that calculates the volume of the mentioned number/s.
+
 # Factoiral Function
 A simple function that finds the Factoiral of the mentioned number.
 

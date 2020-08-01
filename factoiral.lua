@@ -1,7 +1,7 @@
-function Factoiral(num)
+local function Factoiral(num)
   if num <= 0 then
     return num + 1
-  else 
+  else
     return num * Factoiral(num - 1)
   end
 end
