@@ -1,13 +1,15 @@
-local doors = {}
+local function 100Doors()
+  local doors = {}
 
-for pass = 1, 100 do
-  for i = pass, 100, pass do
-    doors[i] = not doors[i]
+  for pass = 1, 100 do
+    for i = pass, 100, pass do
+      doors[i] = not doors[i]
+    end
   end
-end
 
-for k, v in pairs(doors) do
-  if v == true then
-    print(k)
+  for k, v in pairs(doors) do
+    if v == true then
+      print(k)
+    end
   end
 end
